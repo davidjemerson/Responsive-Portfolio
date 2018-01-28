@@ -1,0 +1,326 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-image: url("../images/dust_scratches.png");
+	background-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+}
+
+nav {
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+section {
+	float: left;
+	width: 600px;
+	background: #fff;
+	padding: 25px;
+	border: 1px solid #ddd;
+}
+
+p {
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 25px;
+	font-size: 18px;
+}
+
+form {
+	margin-top: 25px;
+}
+
+input {
+	margin: 5px 0px 10px 0px;
+	padding: 5px;
+}
+
+input[type=text] {
+	width: 590px;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+}
+
+textarea {
+	width: 590px;
+	height: 150px;
+	margin: 5px 0px 10px 0px;
+	padding: 5px;
+}
+
+aside {
+	float: right;
+	width: 220px;
+	padding: 25px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+footer {
+	margin-top: 10px;
+	background: #666;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+	width: 100%;
+}
+
+#TopBar {
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	width: 100%;
+}
+
+#NavBar {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#NavBar a {
+	text-decoration: none;
+	color: #999;
+}
+
+#NavBar a:hover {
+	color: #333;
+}
+
+#NavLinks {
+	float: right;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#NameBox {
+	float: left;
+	background: #4aaaa5;
+	color: #fff;
+	font-weight: bold;
+	padding: 25px 25px 25px 25px;
+}
+
+#MainCont {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-title {
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+.title-bar {
+	margin: 25px 0px 25px 0px;
+	height: 3px;
+	background: #ccc;
+}
+
+.left-image {
+	float: left;
+	margin-right: 25px;
+}
+
+.right-image {
+	float: right;
+	margin-left: 25px;
+}
+
+.left-portfolio {
+	width: 275px;
+	height: 200px;
+	float: left;
+	margin: 0px 25px 25px 0px;
+}
+
+.right-portfolio {
+	width: 275px;
+	height: 200px;
+	float: right;
+	margin: 0px 0px 25px 25px;
+}
+
+.bottom-left-portfolio {
+	width: 275px;
+	height: 200px;
+	float: left;
+	margin-right: 25px;
+}
+
+.social-title {
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+.social-bar {
+	margin: 20px 0px 20px 0px;
+	height: 2px;
+	background: #ccc;
+}
+
+.social-buttons {
+	text-align: center;
+}
+
+.thumb-title {
+	position: relative;
+	top: 125px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+}
+
+.thumb-title:hover {
+	color: #333;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width: 980px) {
+	#NavBar {
+		width: 748px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#MainCont {
+		width: 748px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section {
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.left-image, .right-image {
+		float: none;
+		margin: 0 0 25px 0;
+		text-align: center;
+	}
+
+	input[type=text] {
+		width: 390px;
+	}
+
+	textarea {
+		width: 390px;
+	}
+
+	.left-portfolio, .right-portfolio, .bottom-left-portfolio {
+		float: none;
+		margin: 0 0 5px 0;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	#MainCont {
+		width: 620px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section {
+		width: 600px;
+		margin-bottom: 25px;
+		float: none;
+	}
+
+	aside {
+		width: 600px;
+		float: none;
+	}
+
+		input[type=text] {
+		width: 590px;
+	}
+
+	textarea {
+		width: 590px;
+	}
+
+	.left-portfolio {
+		float: left;
+		margin: 0px 5px 5px 0px;
+	}
+
+	.right-portfolio {
+		float: right;
+		margin: 0px 0px 5px 5px;
+	}
+
+	.bottom-left-portfolio {
+		float: left;
+		margin-right: 5px;
+	}
+}
+@media screen and (max-width: 640px) {
+	#MainCont {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#NameBox {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	#NavLinks {
+		float: none;
+		text-align: center;
+	}
+
+	section {
+		width: 480px;
+		margin-bottom: 25px;
+		float: none;
+	}
+
+	aside {
+		width: 480px;
+		float: none;
+	}
+
+		input[type=text] {
+		width: 480px;
+	}
+
+	textarea {
+		width: 480px;
+	}
+}
